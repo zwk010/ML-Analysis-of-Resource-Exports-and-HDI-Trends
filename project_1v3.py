@@ -344,7 +344,7 @@ def combined_NN_clustering(df, name, xcol, ycol,
 
     return df, km
 
-def save_clustering_results(df, km, name, folder="data/auto_clustering"):
+def save_clustering_results(df, km, name):
     """
     Saves the given DataFrame and KMeans model to disk.
 
@@ -354,8 +354,8 @@ def save_clustering_results(df, km, name, folder="data/auto_clustering"):
         name (str): Base name for output files.
         folder (str): Directory to save files into. Default: 'data/auto_clustering'.
     """
-    data_path = os.path.join(folder, f"{name}_data.csv")
-    model_path = os.path.join(folder, f"{name}_clustering.joblib")
+    data_path = os.path.join("data/auto_clustering", f"{name}_data.csv")
+    model_path = os.path.join("models", f"{name}_clustering.joblib")
 
     df.to_csv(data_path, index=False)
     joblib.dump(km, model_path)

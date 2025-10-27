@@ -1,5 +1,4 @@
-# Natural Resource Exports & HDI Analysis
-
+# Natural Resource Exports & HDI Analysis | [Corruption & Revenue](README_fork.md)
 ## Project Overview
 <table>
   <tr>
