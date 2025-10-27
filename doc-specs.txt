@@ -1,0 +1,2 @@
+https://datafinder.qog.gu.se/downloads?download=gfs_def,gfs_ecaf,gfs_educ,gfs_envr,gfs_gps,gfs_hca,gfs_heal,gfs_pos,gfs_rcr,gfs_sp,ictd_revinsc,bci_bci
+https://www.gu.se/en/quality-government/qog-data
